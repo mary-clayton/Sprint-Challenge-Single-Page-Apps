@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: rgb(204, 202, 202);
 }
 
 main {
@@ -36,4 +37,30 @@ main {
 
 header h1 {
   text-align: center;
+}
+
+.rows {
+  display: flex;
+  flex-flow: row wrap !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.charactercard {
+  margin: 5%;
+}
+
+.links {
+  text-decoration: none;
+  color:black;
+}
+.search-field {
+  padding: 10px;
+  width:100%;
+}
+.search-button {
+  padding: 10px;
+  width:50%;
+  margin-left: 25%;
+  margin-top: 5%;
 }
